@@ -16,7 +16,7 @@ app.use(express.static("public"));
 app.use("/api/courses", courses);
 
 app.get("/", (req, res) => {
-  res.send("Welcome page");
+  res.send("Home page");
 });
 
 const port = process.env.PORT || 3000;
